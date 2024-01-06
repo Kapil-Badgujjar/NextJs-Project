@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  @font-face {
+      font-family: "Helvetica-Neue-Thin";
+      /* font-weight: 200; */
+      src: url("/fonts/HelveticaNeueThin.otf");
+  }
+
+  @font-face {
+      font-family: "Helvetica-Neue-Light";
+      /* font-weight: 300; */
+      src: url("/fonts/HelveticaNeueLight.otf");
+  }
+
+  @font-face {
+      font-family: "Helvetica-Neue-Italic";
+      font-style: italic;
+      src: url("/fonts/HelveticaNeueItalic.ttf");
+  }
+
+  @font-face {
+      font-family: "Helvetica-Neue-Regular";
+      /* font-weight: 400; */
+      src: url("/fonts/HelveticaNeueRoman.otf");
+  }
+
+  @font-face {
+      font-family: "Helvetica-Neue-Medium";
+      /* line-height: "30px"; */
+      font-weight: 500;
+      src: url("/fonts/HelveticaNeueMedium.otf");
+  }
+
+  @font-face {
+      font-family: "Helvetica-Neue-Bold";
+      font-weight: 700;
+      src: url("/fonts/HelveticaNeueBold.otf");
+  }
+}
